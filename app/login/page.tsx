@@ -32,7 +32,11 @@ export default async function LoginPage({
           required
           className="rounded-lg border-0 bg-white px-4 py-3 text-base outline-none ring-rocket-gold focus:ring-2"
         />
-        {error ? (
+        {error === "unconfigured" ? (
+          <p className="text-center text-sm text-rocket-gold">
+            No team password is configured yet — set TEAM_PASSWORD in the Vercel project settings.
+          </p>
+        ) : error ? (
           <p className="text-center text-sm text-rocket-gold">Wrong password — try again.</p>
         ) : null}
         <button

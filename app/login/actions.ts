@@ -9,7 +9,10 @@ export async function login(formData: FormData): Promise<void> {
   const from = String(formData.get("from") ?? "/");
   const actual = process.env.TEAM_PASSWORD;
 
-  if (!actual || !(await passwordMatches(submitted, actual))) {
+  if (!actual) {
+    redirect("/login?error=unconfigured");
+  }
+  if (!(await passwordMatches(submitted, actual))) {
     redirect(`/login?error=1${from !== "/" ? `&from=${encodeURIComponent(from)}` : ""}`);
   }
 
