@@ -53,14 +53,26 @@ export function fmtEt(iso: string): string {
 }
 
 /**
- * Color scale for the setter/hitter matrix and set-type cells. Hitting %
- * bands follow coaching intuition: negative is trouble, .300+ is excellent.
+ * Diverging color bands for the setter/hitter matrix and set-type cells:
+ * warm (orange) = trouble, neutral around break-even, cool (blue) = strong.
+ * Orange/blue instead of red/green so colorblind readers get the same story;
+ * the number is always printed in the cell, never color alone.
  */
 export function rateColorClass(v: number | null): string {
   if (v === null) return "bg-neutral-100 text-neutral-400";
-  if (v < 0) return "bg-red-100 text-red-900";
+  if (v < 0) return "bg-orange-200 text-orange-950";
   if (v < 0.1) return "bg-orange-100 text-orange-900";
-  if (v < 0.2) return "bg-yellow-100 text-yellow-900";
-  if (v < 0.3) return "bg-lime-100 text-lime-900";
-  return "bg-green-200 text-green-900";
+  if (v < 0.2) return "bg-neutral-100 text-neutral-700";
+  if (v < 0.3) return "bg-sky-100 text-sky-900";
+  return "bg-sky-200 text-sky-950";
 }
+
+/** Fixed categorical series palette (validated CVD-safe order — dataviz skill). */
+export const SERIES_COLORS = [
+  "#2a78d6",
+  "#eb6834",
+  "#1baf7a",
+  "#eda100",
+  "#e87ba4",
+  "#008300",
+] as const;

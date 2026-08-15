@@ -1,0 +1,280 @@
+[
+  {
+    "id": "2026-08-08-practice",
+    "date": "2026-08-08",
+    "kind": "practice",
+    "drill": null,
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Hitter by Set Type/August/08.08 Hitter by Set Type.xlsx",
+      "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-08-scrimmage-blue-gold",
+    "date": "2026-08-08",
+    "kind": "scrimmage",
+    "drill": null,
+    "opponent": "Blue Gold",
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Blue Gold/Blue Gold Hitting by Set Type.xlsx",
+      "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx",
+      "Fall 2026/Blue Gold/Blue Gold Stats.xlsx",
+      "Fall 2026/Team/August/08.08 Blue.Gold All Sets.csv"
+    ],
+    "weights": {
+      "reception": [
+        3,
+        2,
+        2,
+        1,
+        0.5,
+        0
+      ],
+      "serving": [
+        1,
+        0.48,
+        0.42,
+        0.33,
+        0.71,
+        0
+      ]
+    }
+  },
+  {
+    "id": "2026-08-08-scrimmage-blue-gold-set-1",
+    "date": "2026-08-08",
+    "kind": "scrimmage",
+    "drill": null,
+    "opponent": "Blue Gold",
+    "setNumber": 1,
+    "sourceFiles": [
+      "Fall 2026/Team/August/08.08 Blue.Gold Set 1.csv"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-08-scrimmage-blue-gold-set-2",
+    "date": "2026-08-08",
+    "kind": "scrimmage",
+    "drill": null,
+    "opponent": "Blue Gold",
+    "setNumber": 2,
+    "sourceFiles": [
+      "Fall 2026/Team/August/08.08 Blue.Gold Set 2.csv"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-08-scrimmage-blue-gold-set-3",
+    "date": "2026-08-08",
+    "kind": "scrimmage",
+    "drill": null,
+    "opponent": "Blue Gold",
+    "setNumber": 3,
+    "sourceFiles": [
+      "Fall 2026/Team/August/08.08 Blue.Gold Set 3.csv"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-10-practice",
+    "date": "2026-08-10",
+    "kind": "practice",
+    "drill": null,
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Hitter by Set Type/August/08.10 Hitter by Set Type.xlsx",
+      "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-10-practice-6v6",
+    "date": "2026-08-10",
+    "kind": "practice",
+    "drill": "6v6",
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Team/August/8.10 6v6.xlsx"
+    ],
+    "weights": {
+      "reception": [
+        3,
+        2,
+        2,
+        1,
+        0.5,
+        0
+      ],
+      "serving": [
+        1,
+        0.48,
+        0.42,
+        0.33,
+        0.71,
+        0
+      ]
+    }
+  },
+  {
+    "id": "2026-08-11-practice",
+    "date": "2026-08-11",
+    "kind": "practice",
+    "drill": null,
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Hitter by Set Type/August/08.11 Hitter by Set Type.xlsx",
+      "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-11-practice-4-2-4-2",
+    "date": "2026-08-11",
+    "kind": "practice",
+    "drill": "4-2-4-2",
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+    ],
+    "weights": {
+      "reception": [
+        3,
+        2,
+        2,
+        1,
+        0.5,
+        0
+      ],
+      "serving": [
+        1,
+        0.48,
+        0.42,
+        0.33,
+        0.71,
+        0
+      ]
+    }
+  },
+  {
+    "id": "2026-08-11-practice-6v6",
+    "date": "2026-08-11",
+    "kind": "practice",
+    "drill": "6v6",
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Team/August/8.11 6v6.xlsx"
+    ],
+    "weights": {
+      "reception": [
+        3,
+        2,
+        2,
+        1,
+        0.5,
+        0
+      ],
+      "serving": [
+        1,
+        0.48,
+        0.42,
+        0.33,
+        0.71,
+        0
+      ]
+    }
+  },
+  {
+    "id": "2026-08-12-practice",
+    "date": "2026-08-12",
+    "kind": "practice",
+    "drill": null,
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Hitter by Set Type/August/08.12 Hitter by Set Type.xlsx",
+      "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+    ],
+    "weights": null
+  },
+  {
+    "id": "2026-08-12-practice-all-6v6",
+    "date": "2026-08-12",
+    "kind": "practice",
+    "drill": "all 6v6",
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+    ],
+    "weights": {
+      "reception": [
+        3,
+        2,
+        2,
+        1,
+        0.5,
+        0
+      ],
+      "serving": [
+        1,
+        0.48,
+        0.42,
+        0.33,
+        0.71,
+        0
+      ]
+    }
+  },
+  {
+    "id": "2026-08-13-practice-4-2-4-2-ct-2",
+    "date": "2026-08-13",
+    "kind": "practice",
+    "drill": "4-2-4-2 ct 2",
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+    ],
+    "weights": {
+      "reception": [
+        3,
+        2,
+        2,
+        1,
+        0.5,
+        0
+      ],
+      "serving": [
+        1,
+        0.48,
+        0.42,
+        0.33,
+        0.71,
+        0
+      ]
+    }
+  },
+  {
+    "id": "2026-08-14-practice",
+    "date": "2026-08-14",
+    "kind": "practice",
+    "drill": null,
+    "opponent": null,
+    "setNumber": null,
+    "sourceFiles": [
+      "Fall 2026/Hitter by Set Type/August/08.14 Hitter by Set Type.xlsx",
+      "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+    ],
+    "weights": null
+  }
+]

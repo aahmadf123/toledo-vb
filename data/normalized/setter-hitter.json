@@ -1,0 +1,1532 @@
+[
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p1",
+    "hitterId": "p11",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p1",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p1",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p1",
+    "hitterId": "p6",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p10",
+    "k": 5,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 11,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p14",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p18",
+    "k": 3,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 10,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p23",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p24",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p6",
+    "k": 4,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 14,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p12",
+    "hitterId": "p9",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p11",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p14",
+    "k": 5,
+    "eUnf": 2,
+    "eBlk": 3,
+    "ta": 17,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p16",
+    "k": 9,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 12,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p15",
+    "hitterId": "p9",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 6,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p11",
+    "k": 5,
+    "eUnf": 3,
+    "eBlk": 1,
+    "ta": 19,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p14",
+    "k": 2,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p18",
+    "k": 4,
+    "eUnf": 2,
+    "eBlk": 0,
+    "ta": 8,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p3",
+    "hitterId": "p9",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p7",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-practice",
+    "setterId": "p7",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p1",
+    "hitterId": "p11",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p1",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p1",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p1",
+    "hitterId": "p6",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p10",
+    "k": 5,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 11,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p14",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p18",
+    "k": 3,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 10,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p23",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p24",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p6",
+    "k": 4,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 14,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p12",
+    "hitterId": "p9",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p11",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p14",
+    "k": 5,
+    "eUnf": 2,
+    "eBlk": 3,
+    "ta": 17,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p16",
+    "k": 9,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 12,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p15",
+    "hitterId": "p9",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 6,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p11",
+    "k": 5,
+    "eUnf": 3,
+    "eBlk": 1,
+    "ta": 19,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p14",
+    "k": 2,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p18",
+    "k": 4,
+    "eUnf": 2,
+    "eBlk": 0,
+    "ta": 8,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p3",
+    "hitterId": "p9",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p7",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "setterId": "p7",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p1",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p1",
+    "hitterId": "p14",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p1",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p10",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p11",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p14",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p6",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p12",
+    "hitterId": "p9",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p10",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p11",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 7,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p14",
+    "k": 4,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 2,
+    "eBlk": 0,
+    "ta": 7,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p24",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p15",
+    "hitterId": "p9",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p3",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p3",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p3",
+    "hitterId": "p23",
+    "k": 2,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p3",
+    "hitterId": "p6",
+    "k": 4,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 9,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p3",
+    "hitterId": "p9",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p7",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice",
+    "setterId": "p7",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 2,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p1",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p1",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p1",
+    "hitterId": "p6",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p12",
+    "hitterId": "p11",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p12",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p15",
+    "hitterId": "p10",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p15",
+    "hitterId": "p14",
+    "k": 3,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 7,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p15",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p15",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p3",
+    "hitterId": "p11",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 2,
+    "ta": 6,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p3",
+    "hitterId": "p16",
+    "k": 8,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 11,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p3",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p3",
+    "hitterId": "p6",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p3",
+    "hitterId": "p9",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p7",
+    "hitterId": "p14",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice",
+    "setterId": "p7",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p1",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p1",
+    "hitterId": "p14",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p1",
+    "hitterId": "p16",
+    "k": 3,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p1",
+    "hitterId": "p18",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p1",
+    "hitterId": "p6",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p12",
+    "hitterId": "p10",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p12",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p12",
+    "hitterId": "p24",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p12",
+    "hitterId": "p6",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 6,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p11",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 1,
+    "ta": 6,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p14",
+    "k": 2,
+    "eUnf": 1,
+    "eBlk": 1,
+    "ta": 7,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p18",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p15",
+    "hitterId": "p9",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p11",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p18",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p2",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 5,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p23",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p6",
+    "k": 3,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p3",
+    "hitterId": "p9",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p7",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p7",
+    "hitterId": "p14",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p7",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p7",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p7",
+    "hitterId": "p24",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice",
+    "setterId": "p7",
+    "hitterId": "p6",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p1",
+    "hitterId": "p14",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p1",
+    "hitterId": "p16",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p1",
+    "hitterId": "p2",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p12",
+    "hitterId": "p10",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p12",
+    "hitterId": "p11",
+    "k": 4,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 6,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p12",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p12",
+    "hitterId": "p18",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p12",
+    "hitterId": "p9",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p15",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p15",
+    "hitterId": "p23",
+    "k": 3,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p15",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p10",
+    "k": 2,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p14",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p16",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 2,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p2",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 4,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p6",
+    "k": 1,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p3",
+    "hitterId": "p9",
+    "k": 1,
+    "eUnf": 1,
+    "eBlk": 0,
+    "ta": 3,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p7",
+    "hitterId": "p11",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  },
+  {
+    "sessionId": "2026-08-14-practice",
+    "setterId": "p7",
+    "hitterId": "p18",
+    "k": 0,
+    "eUnf": 0,
+    "eBlk": 0,
+    "ta": 1,
+    "sourceFile": "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx"
+  }
+]
