@@ -46,7 +46,12 @@ npm run ingest -- --verbose  # re-parse data/raw into data/normalized
 
 ## One-time setup that still needs a human
 
-1. **`RCLONE_CONFIG` repo secret** — the sync workflow fails loudly until
+1. **Create the Vercel project** — vercel.com → Add New → Project →
+   Import `aahmadf123/toledo-vb` (defaults are fine; framework auto-detects
+   as Next.js). While importing, add the `TEAM_PASSWORD` environment
+   variable. After that, every push to `main` deploys production and every
+   branch push gets a preview URL.
+2. **`RCLONE_CONFIG` repo secret** — the sync workflow fails loudly until
    this exists. On any machine with access to the shared folder:
    `rclone config` → new remote named `onedrive` (type onedrive), authorize,
    confirm `rclone lsd onedrive:` shows `Fall 2026`, then paste the entire
@@ -55,10 +60,10 @@ npm run ingest -- --verbose  # re-parse data/raw into data/normalized
    password/MFA change), run `rclone config reconnect onedrive:` and update
    the secret. The workflow's auth-canary step says exactly this when it
    fails.
-2. **`TEAM_PASSWORD`** — set in Vercel project env vars. Changing it
-   invalidates every login cookie (that's a feature). Share it only with
-   the staff.
-3. Manual sync anytime: Actions → "OneDrive sync" → Run workflow. There is
+3. **`TEAM_PASSWORD`** — set in Vercel project env vars (step 1). Changing
+   it invalidates every login cookie (that's a feature). Share it only with
+   the staff. Until it is set, the login page says so explicitly.
+4. Manual sync anytime: Actions → "OneDrive sync" → Run workflow. There is
    also a `repository_dispatch` hook (event type `onedrive-sync`) wired for
    a future instant trigger from Power Automate or a folder watcher.
 
