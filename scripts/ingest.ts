@@ -37,4 +37,4 @@ for (const e of errored) console.log(`  ERROR     ${e.relPath}: ${e.error}`);
 
 // Parse errors are recorded in the manifest and must not block the commit of
 // healthy files; only infra failures (thrown before this point) exit nonzero.
-process.exit(0);
+process.exit(check && errored.length > 0 ? 1 : 0);
