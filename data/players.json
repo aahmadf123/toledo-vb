@@ -1,0 +1,22 @@
+[
+  {"id":"p1","jersey":1,"first":"Grace","last":"Freiberger","position":"L","class":"Jr","height":"5-7","hometown":"Lima, Ohio","previousSchool":null,"aliases":["1 Freiberger G."]},
+  {"id":"p2","jersey":2,"first":"Mariah","last":"Gaines","position":"OH","class":"So","height":"5-10","hometown":"Cincinnati, Ohio","previousSchool":null,"aliases":["2 Gaines M."]},
+  {"id":"p3","jersey":3,"first":"Janelle","last":"Green","position":"S","class":"Jr","height":"5-10","hometown":"Leawood, Kan.","previousSchool":"Cincinnati","aliases":["3 Green J."]},
+  {"id":"p4","jersey":4,"first":"Olivia","last":"Heitkamp","position":"OH/OPP","class":"Jr","height":"6-1","hometown":"New Bremen, Ohio","previousSchool":null,"aliases":["4 Heitkamp O."]},
+  {"id":"p5","jersey":5,"first":"Sydney","last":"Crowley","position":"L","class":"So","height":"5-7","hometown":"Cincinnati, Ohio","previousSchool":null,"aliases":["5 Crowley S."]},
+  {"id":"p6","jersey":6,"first":"Jessica","last":"Costlow","position":"OH","class":"So","height":"5-11","hometown":"Monroe, Mich.","previousSchool":null,"aliases":["6 Costlow J."]},
+  {"id":"p7","jersey":7,"first":"Avery","last":"Adamski","position":"L","class":"Sr","height":"5-8","hometown":"Perrysburg, Ohio","previousSchool":null,"aliases":["7 Adamski A."]},
+  {"id":"p9","jersey":9,"first":"Audrey","last":"Dyas","position":"MB","class":"Fr","height":"6-2","hometown":"Lakeside Park, Ky.","previousSchool":null,"aliases":["9 Dyas A."]},
+  {"id":"p10","jersey":10,"first":"Kayla","last":"Ozanich","position":"MB","class":"Sr","height":"6-3","hometown":"Okemos, Mich.","previousSchool":null,"aliases":["10 Ozanich K."]},
+  {"id":"p11","jersey":11,"first":"Brooke","last":"Naniseni","position":"OH","class":"Sr","height":"6-1","hometown":"Mililani, Hawaii","previousSchool":null,"aliases":["11 Naniseni B."]},
+  {"id":"p12","jersey":12,"first":"Gabbi","last":"LeBlanc","position":"S","class":"Sr","height":"5-8","hometown":"Phoenix, Ariz.","previousSchool":"Alabama","aliases":["12 LeBlanc G."]},
+  {"id":"p14","jersey":14,"first":"Ava","last":"Siefke","position":"OH","class":"Sr","height":"6-1","hometown":"Cincinnati, Ohio","previousSchool":"Eastern Michigan","aliases":["14 Siefke A.","Ava Seifke"]},
+  {"id":"p15","jersey":15,"first":"Maddy","last":"Bach","position":"S","class":"So","height":"5-9","hometown":"Chesterfield, Mo.","previousSchool":"Memphis","aliases":["15 Bach M."]},
+  {"id":"p16","jersey":16,"first":"Sophie","last":"Catalano","position":"OPP","class":"5th","height":"5-10","hometown":"Pittsburgh, Pa.","previousSchool":"Clemson","aliases":["16 Catalano S."]},
+  {"id":"p18","jersey":18,"first":"Caylee","last":"Sharkey","position":"OPP","class":"5th","height":"6-2","hometown":"Sycamore, Ill.","previousSchool":"Mississippi State","aliases":["18 Sharkey C."]},
+  {"id":"p19","jersey":19,"first":"Jadyn","last":"Kennedy","position":"L","class":"Fr","height":"5-3","hometown":"Oregon, Ohio","previousSchool":null,"aliases":["19 Kennedy J."]},
+  {"id":"p21","jersey":21,"first":"Meg","last":"Jarrett","position":"L","class":"Jr","height":"5-8","hometown":"Madison, Ala.","previousSchool":"UAB","aliases":["21 Jarrett M."]},
+  {"id":"p22","jersey":22,"first":"Sierra","last":"Pertzborn","position":"MB","class":"Sr","height":"6-3","hometown":"Middleton, Wis.","previousSchool":null,"aliases":["22 Pertzborn S."]},
+  {"id":"p23","jersey":23,"first":"Lilly","last":"Merk","position":"MB","class":"Jr","height":"6-0","hometown":"Terre Haute, Ind.","previousSchool":"Valparaiso","aliases":["23 Merk L."]},
+  {"id":"p24","jersey":24,"first":"Lucy","last":"Monahan","position":"MB","class":"Fr","height":"6-1","hometown":"Lambertville, Mich.","previousSchool":null,"aliases":["24 Monahan L."]}
+]

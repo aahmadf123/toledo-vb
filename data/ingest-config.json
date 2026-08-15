@@ -1,0 +1,11 @@
+{
+  "seasonYear": 2026,
+  "pathRules": [
+    { "glob": "Blue Gold/**", "kind": "scrimmage", "date": "2026-08-08", "label": "Blue Gold" },
+    { "glob": "Hitter by Set Type/**", "kind": "practice" },
+    { "glob": "Setter Stats/**", "kind": "practice" },
+    { "glob": "Team/**", "kind": "practice" },
+    { "glob": "Matches/**", "kind": "match" }
+  ],
+  "ignoreGlobs": ["**/Before VS/**", "**/~$*", "**/.gitkeep"]
+}
