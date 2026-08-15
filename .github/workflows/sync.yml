@@ -1,0 +1,115 @@
+# Scheduled OneDrive -> repo sync. Copies the coach's "Fall 2026" folder into
+# data/raw, re-ingests changed files, and commits raw + normalized together so
+# every upload is one auditable commit (and one Vercel deploy).
+#
+# Requires the RCLONE_CONFIG repository secret: the full contents of an
+# rclone.conf with a OneDrive remote named "onedrive" that can read the shared
+# folder. Create it locally with `rclone config`, paste the file into the
+# secret. When the token expires, run `rclone config reconnect onedrive:`
+# locally and update the secret with the refreshed file.
+name: OneDrive sync
+
+on:
+  schedule:
+    # Cron is UTC. 11:00-03:50 UTC covers 7am-11pm Toledo time during EDT and
+    # drifts one hour after DST ends in November — accepted fuzz, the hourly
+    # line below still runs around the clock.
+    - cron: "*/10 11-23 * 8-12 *"
+    - cron: "*/10 0-3 * 8-12 *"
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [onedrive-sync]
+
+concurrency:
+  group: onedrive-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check RCLONE_CONFIG secret
+        id: cfg
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONFIG }}
+        run: |
+          if [ -z "$RCLONE_CONF" ]; then
+            # Setup-pending is a warning, not a failure: a hard fail here
+            # would paint every 10-minute scheduled run red until the secret
+            # exists. A present-but-broken token still hard-fails below.
+            echo "::warning::RCLONE_CONFIG secret is not set — sync skipped. Create an rclone OneDrive remote locally (rclone config, remote name 'onedrive') and paste the rclone.conf contents into the repository secret RCLONE_CONFIG."
+            echo "OneDrive sync skipped: RCLONE_CONFIG secret not configured yet (see README, One-time setup)." >> "$GITHUB_STEP_SUMMARY"
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            mkdir -p ~/.config/rclone
+            printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install rclone
+        if: steps.cfg.outputs.present == 'true'
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Auth canary
+        if: steps.cfg.outputs.present == 'true'
+        run: |
+          if ! rclone lsd "onedrive:" --max-depth 1 > /dev/null 2>&1; then
+            echo "::error::OneDrive token check failed. The token has likely expired: run 'rclone config reconnect onedrive:' locally, then update the RCLONE_CONFIG secret with the refreshed ~/.config/rclone/rclone.conf."
+            exit 1
+          fi
+
+      - name: Sync from OneDrive
+        if: steps.cfg.outputs.present == 'true'
+        # sync (not copy): deletions and renames in OneDrive must disappear
+        # from data/raw too, or their normalized rows would linger forever.
+        # Git history remains the archive of every removed upload.
+        run: |
+          rclone sync "onedrive:Fall 2026" "data/raw/Fall 2026" \
+            --exclude "~\$*" \
+            --exclude ".gitkeep" \
+            --exclude "Setter Stats/Before VS/**" \
+            --checksum --verbose
+
+      - uses: actions/setup-node@v4
+        if: steps.cfg.outputs.present == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.cfg.outputs.present == 'true'
+        run: npm ci
+
+      - name: Ingest changed files
+        if: steps.cfg.outputs.present == 'true'
+        run: npm run ingest -- --verbose
+
+      - name: Surface parse errors
+        if: steps.cfg.outputs.present == 'true'
+        run: |
+          node -e '
+            const m = require("./data/manifest.json");
+            for (const [p, f] of Object.entries(m.files)) {
+              if (f.status === "error") console.log(`::warning::Parse error in ${p}: ${f.error}`);
+            }
+          '
+
+      - name: Commit and push
+        if: steps.cfg.outputs.present == 'true'
+        run: |
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "onedrive-sync[bot]"
+          git config user.email "onedrive-sync@users.noreply.github.com"
+          git commit -m "sync: $(date -u +%FT%TZ)"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"

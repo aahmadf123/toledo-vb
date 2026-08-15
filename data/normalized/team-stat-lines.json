@@ -1,0 +1,3086 @@
+[
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p1",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 19,
+      "avg": 2,
+      "pp": 9,
+      "err": 2,
+      "fbsoPct": 0,
+      "inSysPct": 0.63157895
+    },
+    "serving": {
+      "att": 12,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.3275,
+      "madePct": 0.91666667
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p10",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 8,
+      "e": 2,
+      "blk": 1,
+      "att": 17
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 8,
+      "aces": 1,
+      "err": 0,
+      "xps": 0.565,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p11",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 8,
+      "e": 4,
+      "blk": 2,
+      "att": 30
+    },
+    "reception": {
+      "att": 3,
+      "avg": 1.5,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0.66666667
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p12",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 3,
+      "e": 0,
+      "blk": 0,
+      "att": 5
+    },
+    "reception": null,
+    "serving": {
+      "att": 13,
+      "aces": 0,
+      "err": 3,
+      "xps": 0.31769231,
+      "madePct": 0.76923077
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p14",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 13,
+      "e": 4,
+      "blk": 3,
+      "att": 36
+    },
+    "reception": {
+      "att": 27,
+      "avg": 1.51851852,
+      "pp": 9,
+      "err": 3,
+      "fbsoPct": 0.33333333,
+      "inSysPct": 0.37037037
+    },
+    "serving": {
+      "att": 10,
+      "aces": 1,
+      "err": 1,
+      "xps": 0.409,
+      "madePct": 0.9
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p15",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 0,
+      "att": 4
+    },
+    "reception": null,
+    "serving": {
+      "att": 11,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.35727273,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p16",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 14,
+      "e": 0,
+      "blk": 2,
+      "att": 23
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 3,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.38,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p18",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 8,
+      "e": 3,
+      "blk": 0,
+      "att": 28
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 3,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.43,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p19",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 8,
+      "avg": 2,
+      "pp": 1,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0.875
+    },
+    "serving": {
+      "att": 9,
+      "aces": 0,
+      "err": 4,
+      "xps": 0.25,
+      "madePct": 0.55555556
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p2",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p21",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 23,
+      "avg": 2.08695652,
+      "pp": 12,
+      "err": 1,
+      "fbsoPct": 0,
+      "inSysPct": 0.60869565
+    },
+    "serving": {
+      "att": 12,
+      "aces": 1,
+      "err": 4,
+      "xps": 0.3325,
+      "madePct": 0.66666667
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p22",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p23",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 4,
+      "e": 1,
+      "blk": 1,
+      "att": 11
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 11,
+      "aces": 1,
+      "err": 4,
+      "xps": 0.31181818,
+      "madePct": 0.63636364
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p24",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 0,
+      "att": 11
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p3",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 0,
+      "att": 4
+    },
+    "reception": null,
+    "serving": {
+      "att": 12,
+      "aces": 2,
+      "err": 2,
+      "xps": 0.39916667,
+      "madePct": 0.83333333
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p4",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 1,
+      "avg": 2,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 1
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p5",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 16,
+      "avg": 1.9375,
+      "pp": 7,
+      "err": 3,
+      "fbsoPct": 0,
+      "inSysPct": 0.6875
+    },
+    "serving": {
+      "att": 9,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.42777778,
+      "madePct": 0.88888889
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p6",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 7,
+      "e": 0,
+      "blk": 1,
+      "att": 24
+    },
+    "reception": {
+      "att": 13,
+      "avg": 1.61538462,
+      "pp": 3,
+      "err": 0,
+      "fbsoPct": 1,
+      "inSysPct": 0.38461538
+    },
+    "serving": {
+      "att": 10,
+      "aces": 2,
+      "err": 4,
+      "xps": 0.332,
+      "madePct": 0.6
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p7",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 9,
+      "avg": 2.05555556,
+      "pp": 4,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0.66666667
+    },
+    "serving": {
+      "att": 13,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.35076923,
+      "madePct": 0.92307692
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-08-scrimmage-blue-gold",
+    "playerId": "p9",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 6,
+      "e": 0,
+      "blk": 1,
+      "att": 14
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 9,
+      "aces": 1,
+      "err": 1,
+      "xps": 0.41777778,
+      "madePct": 0.88888889
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Blue Gold/Blue Gold Stats.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p1",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 4,
+      "avg": 1.5,
+      "pp": 1,
+      "err": 1,
+      "fbsoPct": 0.33333333,
+      "inSysPct": 0.5
+    },
+    "serving": {
+      "att": 2,
+      "aces": 1,
+      "err": 0,
+      "xps": 0.74,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p10",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 4,
+      "e": 2,
+      "blk": 0,
+      "att": 13
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 2,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.165,
+      "madePct": 0.5
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p11",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 3,
+      "e": 3,
+      "blk": 1,
+      "att": 14
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p12",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 1,
+      "e": 0,
+      "blk": 0,
+      "att": 2
+    },
+    "reception": null,
+    "serving": {
+      "att": 4,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.36,
+      "madePct": 0.75
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p14",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 7,
+      "e": 1,
+      "blk": 0,
+      "att": 14
+    },
+    "reception": {
+      "att": 6,
+      "avg": 2.33333333,
+      "pp": 3,
+      "err": 0,
+      "fbsoPct": 0.45454545,
+      "inSysPct": 0.83333333
+    },
+    "serving": {
+      "att": 5,
+      "aces": 1,
+      "err": 0,
+      "xps": 0.464,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p15",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 1,
+      "e": 0,
+      "blk": 0,
+      "att": 3
+    },
+    "reception": null,
+    "serving": {
+      "att": 2,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.48,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p16",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 3,
+      "e": 6,
+      "blk": 1,
+      "att": 17
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p18",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 1,
+      "att": 8
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p19",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 4,
+      "aces": 1,
+      "err": 0,
+      "xps": 0.4975,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p2",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p21",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 6,
+      "avg": 1.66666667,
+      "pp": 2,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0.33333333
+    },
+    "serving": {
+      "att": 4,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.2475,
+      "madePct": 0.75
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p22",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p23",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 3,
+      "e": 1,
+      "blk": 0,
+      "att": 8
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p24",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 1,
+      "e": 0,
+      "blk": 0,
+      "att": 1
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p3",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 4
+    },
+    "reception": null,
+    "serving": {
+      "att": 3,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.38,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p4",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p5",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 3,
+      "avg": 2.66666667,
+      "pp": 2,
+      "err": 0,
+      "fbsoPct": 0.5,
+      "inSysPct": 1
+    },
+    "serving": {
+      "att": 1,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.33,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p6",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 5,
+      "e": 1,
+      "blk": 1,
+      "att": 16
+    },
+    "reception": {
+      "att": 2,
+      "avg": 2.5,
+      "pp": 1,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 1
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p7",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 6,
+      "avg": 1.83333333,
+      "pp": 3,
+      "err": 1,
+      "fbsoPct": 0,
+      "inSysPct": 0.5
+    },
+    "serving": {
+      "att": 2,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.405,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-10-practice-6v6",
+    "playerId": "p9",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 3,
+      "e": 0,
+      "blk": 1,
+      "att": 7
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 2,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.33,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.10 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p1",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 24,
+      "avg": 1.79166667,
+      "pp": 10,
+      "err": 4,
+      "fbsoPct": 0,
+      "inSysPct": 0.54166667
+    },
+    "serving": {
+      "att": 1,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.48,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p10",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 14,
+      "aces": 2,
+      "err": 7,
+      "xps": 0.28214286,
+      "madePct": 0.5
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p11",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 7,
+      "avg": 0.71428571,
+      "pp": 0,
+      "err": 4,
+      "fbsoPct": 0,
+      "inSysPct": 0.28571429
+    },
+    "serving": {
+      "att": 10,
+      "aces": 1,
+      "err": 4,
+      "xps": 0.28,
+      "madePct": 0.6
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p12",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 17,
+      "aces": 4,
+      "err": 5,
+      "xps": 0.40823529,
+      "madePct": 0.70588235
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p14",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 18,
+      "avg": 1.5,
+      "pp": 5,
+      "err": 4,
+      "fbsoPct": 0,
+      "inSysPct": 0.44444444
+    },
+    "serving": {
+      "att": 5,
+      "aces": 0,
+      "err": 2,
+      "xps": 0.258,
+      "madePct": 0.6
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p15",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 16,
+      "aces": 1,
+      "err": 5,
+      "xps": 0.2875,
+      "madePct": 0.6875
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p16",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 17,
+      "aces": 5,
+      "err": 2,
+      "xps": 0.54117647,
+      "madePct": 0.88235294
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p18",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 19,
+      "aces": 3,
+      "err": 5,
+      "xps": 0.39631579,
+      "madePct": 0.73684211
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p19",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 7,
+      "avg": 1.85714286,
+      "pp": 4,
+      "err": 2,
+      "fbsoPct": 0,
+      "inSysPct": 0.57142857
+    },
+    "serving": {
+      "att": 14,
+      "aces": 3,
+      "err": 2,
+      "xps": 0.46928571,
+      "madePct": 0.85714286
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p2",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 16,
+      "aces": 5,
+      "err": 4,
+      "xps": 0.46625,
+      "madePct": 0.75
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p21",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 27,
+      "avg": 1.66666667,
+      "pp": 10,
+      "err": 4,
+      "fbsoPct": 0,
+      "inSysPct": 0.44444444
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p22",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 14,
+      "aces": 2,
+      "err": 4,
+      "xps": 0.35285714,
+      "madePct": 0.71428571
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p23",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 19,
+      "aces": 3,
+      "err": 12,
+      "xps": 0.23526316,
+      "madePct": 0.36842105
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p24",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 18,
+      "aces": 0,
+      "err": 2,
+      "xps": 0.36,
+      "madePct": 0.88888889
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p3",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 16,
+      "aces": 2,
+      "err": 6,
+      "xps": 0.318125,
+      "madePct": 0.625
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p4",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p5",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 13,
+      "avg": 1.53846154,
+      "pp": 4,
+      "err": 4,
+      "fbsoPct": 0,
+      "inSysPct": 0.53846154
+    },
+    "serving": {
+      "att": 4,
+      "aces": 0,
+      "err": 3,
+      "xps": 0.12,
+      "madePct": 0.25
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p6",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 19,
+      "avg": 2,
+      "pp": 9,
+      "err": 1,
+      "fbsoPct": 0,
+      "inSysPct": 0.57894737
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p7",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 29,
+      "avg": 1.44827586,
+      "pp": 6,
+      "err": 5,
+      "fbsoPct": 0,
+      "inSysPct": 0.4137931
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-4-2-4-2",
+    "playerId": "p9",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 21,
+      "aces": 1,
+      "err": 7,
+      "xps": 0.28761905,
+      "madePct": 0.66666667
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 4-2-4-2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p1",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p10",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 5
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p11",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 2,
+      "att": 11
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p12",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p14",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 4,
+      "e": 2,
+      "blk": 0,
+      "att": 11
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p15",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 0,
+      "att": 3
+    },
+    "reception": null,
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p16",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 11,
+      "e": 1,
+      "blk": 1,
+      "att": 17
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p18",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 5
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p19",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p2",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p21",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p22",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p23",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 1,
+      "e": 1,
+      "blk": 0,
+      "att": 2
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p24",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 3
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p3",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 1,
+      "e": 0,
+      "blk": 0,
+      "att": 1
+    },
+    "reception": null,
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p4",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p5",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p6",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 2,
+      "e": 0,
+      "blk": 0,
+      "att": 4
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p7",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-11-practice-6v6",
+    "playerId": "p9",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 1,
+      "blk": 0,
+      "att": 2
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.11 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p1",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 5,
+      "avg": 1,
+      "pp": 0,
+      "err": 2,
+      "fbsoPct": 1,
+      "inSysPct": 0.4
+    },
+    "serving": {
+      "att": 5,
+      "aces": 0,
+      "err": 3,
+      "xps": 0.162,
+      "madePct": 0.4
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p10",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 3,
+      "e": 0,
+      "blk": 0,
+      "att": 11
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 2,
+      "aces": 1,
+      "err": 1,
+      "xps": 0.5,
+      "madePct": 0.5
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p11",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 5,
+      "e": 1,
+      "blk": 3,
+      "att": 20
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p12",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 1
+    },
+    "reception": null,
+    "serving": {
+      "att": 3,
+      "aces": 1,
+      "err": 1,
+      "xps": 0.44333333,
+      "madePct": 0.66666667
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p14",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 3,
+      "e": 3,
+      "blk": 2,
+      "att": 15
+    },
+    "reception": {
+      "att": 5,
+      "avg": 1.4,
+      "pp": 1,
+      "err": 0,
+      "fbsoPct": 0.5,
+      "inSysPct": 0.2
+    },
+    "serving": {
+      "att": 6,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.38,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p15",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 1
+    },
+    "reception": null,
+    "serving": {
+      "att": 5,
+      "aces": 0,
+      "err": 2,
+      "xps": 0.258,
+      "madePct": 0.6
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p16",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 4,
+      "e": 2,
+      "blk": 1,
+      "att": 13
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 1,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.33,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p18",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 5,
+      "e": 2,
+      "blk": 0,
+      "att": 15
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p19",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p2",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 4,
+      "e": 0,
+      "blk": 0,
+      "att": 8
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p21",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 7,
+      "avg": 1.42857143,
+      "pp": 1,
+      "err": 1,
+      "fbsoPct": 0,
+      "inSysPct": 0.42857143
+    },
+    "serving": {
+      "att": 6,
+      "aces": 2,
+      "err": 3,
+      "xps": 0.41333333,
+      "madePct": 0.5
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p22",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p23",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 1,
+      "e": 1,
+      "blk": 0,
+      "att": 4
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p24",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 1,
+      "e": 0,
+      "blk": 0,
+      "att": 2
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p3",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 5,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.466,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p4",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p5",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 2,
+      "avg": 1,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 1,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.33,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p6",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 8,
+      "e": 0,
+      "blk": 1,
+      "att": 15
+    },
+    "reception": {
+      "att": 3,
+      "avg": 2.16666667,
+      "pp": 2,
+      "err": 0,
+      "fbsoPct": 0.125,
+      "inSysPct": 0.66666667
+    },
+    "serving": {
+      "att": 2,
+      "aces": 0,
+      "err": 1,
+      "xps": 0.165,
+      "madePct": 0.5
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p7",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 7,
+      "avg": 2,
+      "pp": 2,
+      "err": 1,
+      "fbsoPct": 1,
+      "inSysPct": 0.85714286
+    },
+    "serving": {
+      "att": 4,
+      "aces": 1,
+      "err": 0,
+      "xps": 0.5725,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-12-practice-all-6v6",
+    "playerId": "p9",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 2,
+      "e": 1,
+      "blk": 0,
+      "att": 5
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 1,
+      "aces": 0,
+      "err": 0,
+      "xps": 0.33,
+      "madePct": 1
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.12 all 6v6.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p1",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 24,
+      "avg": 1.54166667,
+      "pp": 8,
+      "err": 5,
+      "fbsoPct": 0,
+      "inSysPct": 0.41666667
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p10",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 17,
+      "aces": 4,
+      "err": 8,
+      "xps": 0.35,
+      "madePct": 0.52941176
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p11",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 16,
+      "aces": 1,
+      "err": 3,
+      "xps": 0.423125,
+      "madePct": 0.8125
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p12",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p14",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 16,
+      "avg": 1.34375,
+      "pp": 5,
+      "err": 3,
+      "fbsoPct": 0,
+      "inSysPct": 0.3125
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p15",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 15,
+      "aces": 1,
+      "err": 4,
+      "xps": 0.35733333,
+      "madePct": 0.73333333
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p16",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 17,
+      "aces": 2,
+      "err": 5,
+      "xps": 0.34705882,
+      "madePct": 0.70588235
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p18",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p19",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 5,
+      "avg": 1.4,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0.4
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p2",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 18,
+      "aces": 2,
+      "err": 8,
+      "xps": 0.30388889,
+      "madePct": 0.55555556
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p21",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 12,
+      "avg": 1.54166667,
+      "pp": 4,
+      "err": 2,
+      "fbsoPct": 0,
+      "inSysPct": 0.41666667
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p22",
+    "positionGroup": "OPP",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p23",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p24",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p3",
+    "positionGroup": "S",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": null,
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p4",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p5",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": true,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p6",
+    "positionGroup": "OH",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 3,
+      "avg": 1,
+      "pp": 0,
+      "err": 1,
+      "fbsoPct": 0,
+      "inSysPct": 0.33333333
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p7",
+    "positionGroup": "L",
+    "attacking": null,
+    "reception": {
+      "att": 9,
+      "avg": 1.27777778,
+      "pp": 1,
+      "err": 2,
+      "fbsoPct": 0,
+      "inSysPct": 0.44444444
+    },
+    "serving": {
+      "att": 0,
+      "aces": 0,
+      "err": 0,
+      "xps": null,
+      "madePct": null
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  },
+  {
+    "sessionId": "2026-08-13-practice-4-2-4-2-ct-2",
+    "playerId": "p9",
+    "positionGroup": "MB",
+    "attacking": {
+      "k": 0,
+      "e": 0,
+      "blk": 0,
+      "att": 0
+    },
+    "reception": {
+      "att": 0,
+      "avg": null,
+      "pp": 0,
+      "err": 0,
+      "fbsoPct": 0,
+      "inSysPct": 0
+    },
+    "serving": {
+      "att": 18,
+      "aces": 3,
+      "err": 4,
+      "xps": 0.41833333,
+      "madePct": 0.77777778
+    },
+    "satOut": false,
+    "sourceFile": "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"
+  }
+]
