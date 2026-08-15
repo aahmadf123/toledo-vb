@@ -34,46 +34,64 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install rclone
-        run: curl -fsSL https://rclone.org/install.sh | sudo bash
-
-      - name: Write rclone config
+      - name: Check RCLONE_CONFIG secret
+        id: cfg
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONFIG }}
         run: |
           if [ -z "$RCLONE_CONF" ]; then
-            echo "::error::RCLONE_CONFIG secret is not set. Create an rclone OneDrive remote locally (rclone config, remote name 'onedrive') and paste the rclone.conf contents into the repository secret RCLONE_CONFIG."
-            exit 1
+            # Setup-pending is a warning, not a failure: a hard fail here
+            # would paint every 10-minute scheduled run red until the secret
+            # exists. A present-but-broken token still hard-fails below.
+            echo "::warning::RCLONE_CONFIG secret is not set — sync skipped. Create an rclone OneDrive remote locally (rclone config, remote name 'onedrive') and paste the rclone.conf contents into the repository secret RCLONE_CONFIG."
+            echo "OneDrive sync skipped: RCLONE_CONFIG secret not configured yet (see README, One-time setup)." >> "$GITHUB_STEP_SUMMARY"
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            mkdir -p ~/.config/rclone
+            printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+            echo "present=true" >> "$GITHUB_OUTPUT"
           fi
-          mkdir -p ~/.config/rclone
-          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+
+      - name: Install rclone
+        if: steps.cfg.outputs.present == 'true'
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash
 
       - name: Auth canary
+        if: steps.cfg.outputs.present == 'true'
         run: |
           if ! rclone lsd "onedrive:" --max-depth 1 > /dev/null 2>&1; then
             echo "::error::OneDrive token check failed. The token has likely expired: run 'rclone config reconnect onedrive:' locally, then update the RCLONE_CONFIG secret with the refreshed ~/.config/rclone/rclone.conf."
             exit 1
           fi
 
-      - name: Copy from OneDrive
+      - name: Sync from OneDrive
+        if: steps.cfg.outputs.present == 'true'
+        # sync (not copy): deletions and renames in OneDrive must disappear
+        # from data/raw too, or their normalized rows would linger forever.
+        # Git history remains the archive of every removed upload.
         run: |
-          rclone copy "onedrive:Fall 2026" "data/raw/Fall 2026" \
+          rclone sync "onedrive:Fall 2026" "data/raw/Fall 2026" \
             --exclude "~\$*" \
+            --exclude ".gitkeep" \
             --exclude "Setter Stats/Before VS/**" \
             --checksum --verbose
 
       - uses: actions/setup-node@v4
+        if: steps.cfg.outputs.present == 'true'
         with:
           node-version: 22
           cache: npm
 
       - name: Install dependencies
+        if: steps.cfg.outputs.present == 'true'
         run: npm ci
 
       - name: Ingest changed files
+        if: steps.cfg.outputs.present == 'true'
         run: npm run ingest -- --verbose
 
       - name: Surface parse errors
+        if: steps.cfg.outputs.present == 'true'
         run: |
           node -e '
             const m = require("./data/manifest.json");
@@ -83,6 +101,7 @@ jobs:
           '
 
       - name: Commit and push
+        if: steps.cfg.outputs.present == 'true'
         run: |
           git add data/
           if git diff --cached --quiet; then

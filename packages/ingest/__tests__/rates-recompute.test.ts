@@ -12,7 +12,7 @@ import { teamParser } from "@ingest/parse-team";
 import { addr, cellNum, getSheetLoose } from "@ingest/xlsx-utils";
 import type { RawFile } from "@ingest/types";
 import { attackEff, hitPct, killPct, ppPct, serveMadePct, setterHitPct } from "@/lib/metrics";
-import { makeCtx, rawDir } from "./helpers";
+import { config, makeCtx, rawDir } from "./helpers";
 
 /**
  * The template-drift early-warning system: sweep EVERY file in data/raw,
@@ -33,7 +33,7 @@ function walk(dir: string): string[] {
 
 const files: RawFile[] = walk(rawDir)
   .map((p) => path.relative(rawDir, p).split(path.sep).join("/"))
-  .filter((rel) => !isIgnoredPath(rel))
+  .filter((rel) => !isIgnoredPath(rel, config))
   .sort()
   .map((rel) => {
     const buffer = fs.readFileSync(path.join(rawDir, rel));

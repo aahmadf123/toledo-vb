@@ -35,6 +35,7 @@ for (const p of warned) {
 }
 for (const e of errored) console.log(`  ERROR     ${e.relPath}: ${e.error}`);
 
-// Parse errors are recorded in the manifest and must not block the commit of
-// healthy files; only infra failures (thrown before this point) exit nonzero.
+// In sync runs, parse errors are recorded in the manifest and must not block
+// the commit of healthy files — exit 0. In --check mode the whole point is to
+// gate on parse health, so any error is a failure.
 process.exit(check && errored.length > 0 ? 1 : 0);

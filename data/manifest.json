@@ -1,6 +1,7 @@
 {
   "season": 2026,
-  "lastSyncAt": "2026-08-15T10:22:28.660Z",
+  "lastSyncAt": "2026-08-15T10:44:01.527Z",
+  "inputsFingerprint": "4062fc21dec0f586425c7c22c4cd262224946c67517b2e93aff374830601b9bb",
   "files": {
     "Fall 2026/Blue Gold/Blue Gold Hitting by Set Type.xlsx": {
       "sha256": "ee1613a9805f20cad1fa88cf7caf2e6d64753069cd45931e08e13d5b65cf1ccf",
@@ -11,7 +12,7 @@
         "2026-08-08-scrimmage-blue-gold"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.431Z"
+      "parsedAt": "2026-08-15T10:44:00.347Z"
     },
     "Fall 2026/Blue Gold/Blue Gold Setter Hitter.xlsx": {
       "sha256": "8dde0b2d3991fc7dc9305af2d6ba2df53dce08fbbe092eb8ba673575595a07d7",
@@ -22,7 +23,7 @@
         "2026-08-08-scrimmage-blue-gold"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.452Z"
+      "parsedAt": "2026-08-15T10:44:00.362Z"
     },
     "Fall 2026/Blue Gold/Blue Gold Stats.xlsx": {
       "sha256": "163e0a96e51546a588994800bd2fe14f76f5c1b0b528ec9870461318767fb092",
@@ -132,7 +133,7 @@
           "cell": "L25"
         }
       ],
-      "parsedAt": "2026-08-15T10:22:18.476Z"
+      "parsedAt": "2026-08-15T10:44:00.386Z"
     },
     "Fall 2026/Hitter by Set Type/August/08.08 Hitter by Set Type.xlsx": {
       "sha256": "abbe63a7e846d48aa4e9b8328a4444d86806cdb357293a6f5ba256065ff66aee",
@@ -143,7 +144,7 @@
         "2026-08-08-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.490Z"
+      "parsedAt": "2026-08-15T10:44:00.395Z"
     },
     "Fall 2026/Hitter by Set Type/August/08.10 Hitter by Set Type.xlsx": {
       "sha256": "28cac2abdaadb28e3b9363f481fa4fa64c8fa7eebd0fedf286f0e37aad005d1d",
@@ -154,7 +155,7 @@
         "2026-08-10-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.499Z"
+      "parsedAt": "2026-08-15T10:44:00.404Z"
     },
     "Fall 2026/Hitter by Set Type/August/08.11 Hitter by Set Type.xlsx": {
       "sha256": "7d051b5b9d8785512726f3325d5e7e2ea30661ff81edff0a581f7b8c6bbc3109",
@@ -165,7 +166,7 @@
         "2026-08-11-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.508Z"
+      "parsedAt": "2026-08-15T10:44:00.411Z"
     },
     "Fall 2026/Hitter by Set Type/August/08.12 Hitter by Set Type.xlsx": {
       "sha256": "23fbdc634fb8a90fbc332fe66d53b5c967039eeb71d90eb1e262cae1d8b36504",
@@ -176,7 +177,7 @@
         "2026-08-12-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.518Z"
+      "parsedAt": "2026-08-15T10:44:00.421Z"
     },
     "Fall 2026/Hitter by Set Type/August/08.14 Hitter by Set Type.xlsx": {
       "sha256": "3529941741b4488468d7315a60160a5caace9158090353baa683db70ec29f7cf",
@@ -187,7 +188,7 @@
         "2026-08-14-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.526Z"
+      "parsedAt": "2026-08-15T10:44:00.429Z"
     },
     "Fall 2026/Setter Stats/August/08.08 Setter Hitter.xlsx": {
       "sha256": "7c992b31f985057b2389ad991fb58d77b27ea81f13912f635551a322b31c28fe",
@@ -198,7 +199,7 @@
         "2026-08-08-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.538Z"
+      "parsedAt": "2026-08-15T10:44:00.441Z"
     },
     "Fall 2026/Setter Stats/August/08.10 Setter Hitter.xlsx": {
       "sha256": "ae5e05fd8142e1b426c163f9a33650b52e08e35adba24884a3c958929c1bdd9f",
@@ -209,7 +210,7 @@
         "2026-08-10-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.549Z"
+      "parsedAt": "2026-08-15T10:44:00.451Z"
     },
     "Fall 2026/Setter Stats/August/08.11 Setter Hitter.xlsx": {
       "sha256": "ac5622cd18d5424b2baa5aaa32735ee675c8b45c3999a54da06f09081c304141",
@@ -220,7 +221,7 @@
         "2026-08-11-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.559Z"
+      "parsedAt": "2026-08-15T10:44:00.462Z"
     },
     "Fall 2026/Setter Stats/August/08.12 Setter Hitter.xlsx": {
       "sha256": "817f881fe0bc0774630b1d7acca2ebb4352517b7747d7343ea2d2eb63cbc742b",
@@ -231,7 +232,7 @@
         "2026-08-12-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.570Z"
+      "parsedAt": "2026-08-15T10:44:00.471Z"
     },
     "Fall 2026/Setter Stats/August/08.14 Setter Hitter.xlsx": {
       "sha256": "0edbb26e4437fa7a8f2988d8193eed33ecf1866a5ebbc19dbf09f48f00a1b711",
@@ -242,7 +243,7 @@
         "2026-08-14-practice"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.581Z"
+      "parsedAt": "2026-08-15T10:44:00.480Z"
     },
     "Fall 2026/Team/August/08.08 Blue.Gold All Sets.csv": {
       "sha256": "e33e7010687bbfb0ed05ac8d9e35a2ce47eca9ea61ac0615fb08243f7072a059",
@@ -253,7 +254,7 @@
         "2026-08-08-scrimmage-blue-gold"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.583Z"
+      "parsedAt": "2026-08-15T10:44:00.481Z"
     },
     "Fall 2026/Team/August/08.08 Blue.Gold Set 1.csv": {
       "sha256": "666965d7d9b247fb978a7ae37bd21a26bc4d0b35e68156d27ca62304a7a61cbe",
@@ -264,7 +265,7 @@
         "2026-08-08-scrimmage-blue-gold-set-1"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.583Z"
+      "parsedAt": "2026-08-15T10:44:00.482Z"
     },
     "Fall 2026/Team/August/08.08 Blue.Gold Set 2.csv": {
       "sha256": "5fbbc99b414b95a90b9749d3d6defe495a6b7826439f2810da09f53d9dfaa4c5",
@@ -275,7 +276,7 @@
         "2026-08-08-scrimmage-blue-gold-set-2"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.584Z"
+      "parsedAt": "2026-08-15T10:44:00.482Z"
     },
     "Fall 2026/Team/August/08.08 Blue.Gold Set 3.csv": {
       "sha256": "3b9676ed0ef9593a6b6d1c3dbfef76c0bbda07af4d814ac5953a4183a06e7a03",
@@ -286,7 +287,7 @@
         "2026-08-08-scrimmage-blue-gold-set-3"
       ],
       "warnings": [],
-      "parsedAt": "2026-08-15T10:22:18.584Z"
+      "parsedAt": "2026-08-15T10:44:00.483Z"
     },
     "Fall 2026/Team/August/8.10 6v6.xlsx": {
       "sha256": "a349bdcb0426161bf6b74cd529b074e34abf8ff3fbbaea80997468bdbfe6ba54",
@@ -455,7 +456,7 @@
           "cell": "L31"
         }
       ],
-      "parsedAt": "2026-08-15T10:22:18.595Z"
+      "parsedAt": "2026-08-15T10:44:00.496Z"
     },
     "Fall 2026/Team/August/8.11 4-2-4-2.xlsx": {
       "sha256": "5fb3aa6abe0e8554f0ab3492ed1554c3000953190104e7f74eda36531f4b3d45",
@@ -556,7 +557,7 @@
           "cell": "V33"
         }
       ],
-      "parsedAt": "2026-08-15T10:22:18.605Z"
+      "parsedAt": "2026-08-15T10:44:00.509Z"
     },
     "Fall 2026/Team/August/8.11 6v6.xlsx": {
       "sha256": "f7c9a68ef68d5b6aab80e1b52a22dbfef599a6998fc27b505ff6dd5470d6fd0e",
@@ -889,7 +890,7 @@
           "message": "LeBlanc has zero attempts in Fall 2026/Team/August/8.11 6v6.xlsx (sat out)"
         }
       ],
-      "parsedAt": "2026-08-15T10:22:18.617Z"
+      "parsedAt": "2026-08-15T10:44:00.520Z"
     },
     "Fall 2026/Team/August/8.12 all 6v6.xlsx": {
       "sha256": "604eb1e730c20a519f46ab0c1b0ee3057971d18ae23bec5b034b140e73ddb743",
@@ -1048,7 +1049,7 @@
           "message": "Kennedy has zero attempts in Fall 2026/Team/August/8.12 all 6v6.xlsx (sat out)"
         }
       ],
-      "parsedAt": "2026-08-15T10:22:18.629Z"
+      "parsedAt": "2026-08-15T10:44:00.531Z"
     },
     "Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx": {
       "sha256": "b8ae74129ac283c7bf08008f282cd9e90cbfc4d87a0c5159246e72dbca7fe801",
@@ -1287,7 +1288,7 @@
           "message": "LeBlanc has zero attempts in Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx (sat out)"
         }
       ],
-      "parsedAt": "2026-08-15T10:22:18.641Z"
+      "parsedAt": "2026-08-15T10:44:00.541Z"
     }
   }
 }

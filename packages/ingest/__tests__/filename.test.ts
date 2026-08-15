@@ -12,7 +12,7 @@ const config: IngestConfig = {
     { glob: "Team/**", kind: "practice" },
     { glob: "Matches/**", kind: "match" },
   ],
-  ignoreGlobs: [],
+  ignoreGlobs: ["**/Before VS/**", "**/~$*", "**/.gitkeep"],
 };
 
 describe("parseRawPath", () => {
@@ -73,7 +73,13 @@ describe("isIgnoredPath", () => {
     ["Fall 2026/Team/August/8.10 6v6.xlsx", false],
     ["Fall 2026/Team/August/08.08 Blue.Gold Set 1.csv", false],
   ])("%s -> %s", (p, expected) => {
-    expect(isIgnoredPath(p)).toBe(expected);
+    expect(isIgnoredPath(p, config)).toBe(expected);
+  });
+
+  it("honors additional configured ignore globs", () => {
+    const custom: IngestConfig = { ...config, ignoreGlobs: [...config.ignoreGlobs, "**/Scratch/**"] };
+    expect(isIgnoredPath("Fall 2026/Scratch/junk.xlsx", custom)).toBe(true);
+    expect(isIgnoredPath("Fall 2026/Scratch/junk.xlsx", config)).toBe(false);
   });
 });
 

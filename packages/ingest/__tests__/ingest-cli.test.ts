@@ -95,6 +95,20 @@ describe("runIngest", () => {
     expect(snapshotNormalized()).toBe(before);
   });
 
+  it("re-parses everything when ingestion inputs change, despite unchanged hashes", () => {
+    // Any byte change to ingest-config.json (or players.json, or a parser
+    // version bump) must invalidate the hash-based skip.
+    const cfgPath = path.join(tmpRoot, "data/ingest-config.json");
+    fs.appendFileSync(cfgPath, "\n");
+    const summary = runIngest({ rootDir: tmpRoot, now: () => "2026-08-15T00:30:00.000Z" });
+    expect(summary.skipped).toHaveLength(0);
+    expect(summary.ok.length + summary.warned.length).toBe(3);
+
+    // And with the fingerprint now stored, the next run skips again.
+    const again = runIngest({ rootDir: tmpRoot, now: () => "2026-08-15T00:31:00.000Z" });
+    expect(again.skipped).toHaveLength(3);
+  });
+
   it("removes records when their source file disappears", () => {
     fs.rmSync(path.join(tmpRoot, "data/raw/Fall 2026/Team/August/8.13 4-2-4-2 ct 2.xlsx"));
     runIngest({ rootDir: tmpRoot, now: () => "2026-08-15T01:00:00.000Z" });

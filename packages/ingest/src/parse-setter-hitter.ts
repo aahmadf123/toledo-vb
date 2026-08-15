@@ -46,7 +46,13 @@ export const setterHitterParser: Parser = {
     // in when no rule matched the path.
     const b1 = cellStr(sheet, "B1");
     const kindFromSheet =
-      parsed.kind === null && b1 && /match|scout/i.test(b1) ? ("scrimmage" as const) : undefined;
+      parsed.kind !== null || !b1
+        ? undefined
+        : /match/i.test(b1)
+          ? ("match" as const)
+          : /scout/i.test(b1)
+            ? ("scrimmage" as const)
+            : undefined;
     const meta = resolveSessionMeta(parsed, { kindOverride: kindFromSheet });
 
     // Discover setter blocks from the jersey/name rows; a template with

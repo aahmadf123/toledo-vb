@@ -26,6 +26,13 @@ const PARSERS: Record<string, Parser> = {
   "box-score": boxScoreParser,
 };
 
+/**
+ * Bump when parser behavior changes. It feeds the manifest fingerprint, so a
+ * bump forces every already-hashed raw file to re-parse on the next run —
+ * without it, a parser fix would only reach files whose bytes change.
+ */
+export const INGEST_VERSION = "1";
+
 export interface IngestOptions {
   rootDir: string; // repo root
   force?: boolean;
@@ -60,15 +67,22 @@ export function runIngest(opts: IngestOptions): IngestSummary {
   const manifestPath = path.join(dataDir, "manifest.json");
   const now = opts.now ?? (() => new Date().toISOString());
 
-  const config = IngestConfigSchema.parse(
-    JSON.parse(fs.readFileSync(path.join(dataDir, "ingest-config.json"), "utf8"))
-  );
+  const configBytes = fs.readFileSync(path.join(dataDir, "ingest-config.json"));
+  const playersBytes = fs.readFileSync(path.join(dataDir, "players.json"));
+  const config = IngestConfigSchema.parse(JSON.parse(configBytes.toString("utf8")));
   const roster = buildRosterIndex(
-    z.array(PlayerSchema).parse(JSON.parse(fs.readFileSync(path.join(dataDir, "players.json"), "utf8")))
+    z.array(PlayerSchema).parse(JSON.parse(playersBytes.toString("utf8")))
   );
 
   const manifest = readManifest(manifestPath, config.seasonYear);
   const stores = readStores(normalizedDir);
+
+  // Parser code, roster, and config are ingestion inputs too: when any of
+  // them change, hash-unchanged raw files still need a re-parse.
+  const inputsFingerprint = sha256(
+    Buffer.concat([Buffer.from(`ingest-v${INGEST_VERSION}\n`), playersBytes, configBytes])
+  );
+  const forceAll = (opts.force ?? false) || manifest.inputsFingerprint !== inputsFingerprint;
 
   const summary: IngestSummary = {
     ok: [],
@@ -96,7 +110,7 @@ export function runIngest(opts: IngestOptions): IngestSummary {
   for (const relPath of allPaths) {
     if (opts.fileFilter && !opts.fileFilter(relPath)) continue;
 
-    if (isIgnoredPath(relPath)) {
+    if (isIgnoredPath(relPath, config)) {
       summary.ignored.push(relPath);
       if (!opts.check && path.basename(relPath) !== ".gitkeep") {
         manifest.files[relPath] = manifestEntry(
@@ -116,7 +130,7 @@ export function runIngest(opts: IngestOptions): IngestSummary {
 
     const buffer = fs.readFileSync(path.join(rawDir, relPath));
     const hash = sha256(buffer);
-    if (!needsParse(manifest, relPath, hash, opts.force ?? false)) {
+    if (!needsParse(manifest, relPath, hash, forceAll)) {
       summary.skipped.push(relPath);
       continue;
     }
@@ -189,6 +203,7 @@ export function runIngest(opts: IngestOptions): IngestSummary {
 
   if (!opts.check) {
     manifest.lastSyncAt = now();
+    manifest.inputsFingerprint = inputsFingerprint;
     writeStores(normalizedDir, stores);
     writeManifest(manifestPath, manifest);
   }

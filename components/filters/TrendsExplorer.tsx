@@ -106,8 +106,11 @@ export default function TrendsExplorer({ payload }: { payload: TrendsPayload }) 
         : prev.length >= MAX_ENTITIES
           ? prev
           : [...prev, id];
+      // Never let the chart go empty — and only sync the URL with a
+      // selection that is actually being applied.
+      if (next.length === 0) return prev;
       syncUrl({ who: next.join(",") });
-      return next.length > 0 ? next : prev;
+      return next;
     });
   };
 

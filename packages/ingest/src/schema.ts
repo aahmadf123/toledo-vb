@@ -183,6 +183,9 @@ export type ManifestFile = z.infer<typeof ManifestFileSchema>;
 export const ManifestSchema = z.object({
   season: z.number().int(),
   lastSyncAt: z.string(),
+  // Hash of parser version + players.json + ingest-config.json. When any of
+  // those change, every file re-parses even though the raw bytes did not.
+  inputsFingerprint: z.string().optional(),
   files: z.record(z.string(), ManifestFileSchema),
 });
 export type Manifest = z.infer<typeof ManifestSchema>;
