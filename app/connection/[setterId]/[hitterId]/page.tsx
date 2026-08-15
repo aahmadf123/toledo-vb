@@ -58,11 +58,11 @@ export default async function PairPage({
           seasonRate !== null ? ` · ${seasonRate >= 0 ? "" : "-"}.${Math.abs(seasonRate).toFixed(3).slice(2)}` : ""
         }`}
       >
-        <Link href="/connection" className="text-xs font-medium text-rocket-blue hover:underline">
+        <Link href="/connection" className="text-xs font-medium text-gold hover:underline">
           ← Full matrix
         </Link>
       </PageHeader>
-      <div className="rounded-xl border border-neutral-200 bg-white p-3 shadow-sm">
+      <div className="rounded-xl border border-navy-700 bg-card p-3">
         <TrendChart
           labels={points.map((p) => fmtDate(p.date))}
           series={[

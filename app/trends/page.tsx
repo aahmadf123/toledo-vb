@@ -1,20 +1,29 @@
 import { Suspense } from "react";
 import PageHeader from "@/components/layout/PageHeader";
 import TrendsExplorer, { type TrendsPayload } from "@/components/filters/TrendsExplorer";
-import { getAttackBySetType, getPlayers, getSessions, getTeamStatLines } from "@/lib/data";
-import { METRICS, metricPoint, sessionLabel } from "@/lib/queries";
+import {
+  getAttackBySetType,
+  getMatchBoxLines,
+  getPlayers,
+  getSessions,
+  getTeamStatLines,
+} from "@/lib/data";
+import { METRICS, metricValue, sessionLabel } from "@/lib/queries";
 
 export const metadata = { title: "Trends — Toledo VB" };
 
 export default function TrendsPage() {
   const sessions = getSessions().filter((s) => s.setNumber === null);
   const players = getPlayers();
-  const teamLines = getTeamStatLines();
-  const attackRows = getAttackBySetType();
+  const metricData = {
+    teamLines: getTeamStatLines(),
+    attackRows: getAttackBySetType(),
+    boxLines: getMatchBoxLines(),
+  };
 
   const entities = [
     { id: "team", name: "Team" },
-    ...players.map((p) => ({ id: p.id, name: `${p.jersey} ${p.last}` })),
+    ...players.map((p) => ({ id: p.id, name: `${p.jersey} ${p.last}`, position: p.position })),
   ];
 
   // The full metric x entity x session table is precomputed server-side; the
@@ -25,7 +34,7 @@ export default function TrendsPage() {
     series[metric.id] = {};
     for (const entity of entities) {
       series[metric.id][entity.id] = sessions.map((s) =>
-        metricPoint(metric.id, entity.id, s.id, teamLines, attackRows)
+        metricValue(metric.id, entity.id, new Set([s.id]), metricData)
       );
     }
   }
@@ -39,7 +48,7 @@ export default function TrendsPage() {
       label: sessionLabel(s),
     })),
     entities,
-    metrics: METRICS.map((m) => ({ id: m.id, label: m.label, fmt: m.fmt })),
+    metrics: METRICS.map((m) => ({ id: m.id, label: m.label, fmt: m.fmt, source: m.source })),
     series,
   };
 

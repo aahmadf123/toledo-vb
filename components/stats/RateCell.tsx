@@ -1,4 +1,4 @@
-import { fmtPct, fmtRate, fmtRating } from "@/lib/format";
+import { fmtNum1, fmtPct, fmtRate, fmtRating } from "@/lib/format";
 import { MIN_ATTEMPTS } from "@/lib/metrics";
 
 /**
@@ -14,17 +14,23 @@ export default function RateCell({
 }: {
   value: number | null;
   attempts: number;
-  fmt?: "rate3" | "pct1" | "rating";
+  fmt?: "rate3" | "pct1" | "rating" | "num1";
   minAttempts?: number;
 }) {
   const text =
-    fmt === "pct1" ? fmtPct(value) : fmt === "rating" ? fmtRating(value) : fmtRate(value);
+    fmt === "pct1"
+      ? fmtPct(value)
+      : fmt === "rating"
+        ? fmtRating(value)
+        : fmt === "num1"
+          ? fmtNum1(value)
+          : fmtRate(value);
   const small = attempts < minAttempts;
   return (
-    <span className={small ? "text-neutral-400" : undefined}>
+    <span className={small ? "text-ink-muted/70" : undefined}>
       {text}
       {small && value !== null ? (
-        <sup className="ml-0.5 text-[10px] text-neutral-400" title={`${attempts} attempts`}>
+        <sup className="ml-0.5 text-[10px] text-ink-muted" title={`${attempts} attempts`}>
           {attempts}
         </sup>
       ) : null}

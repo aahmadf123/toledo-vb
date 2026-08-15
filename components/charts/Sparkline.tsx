@@ -5,7 +5,7 @@ import { Line, LineChart, ResponsiveContainer, YAxis } from "recharts";
 /** Tiny trend line for KPI tiles — no axes, no tooltip, one series. */
 export default function Sparkline({
   values,
-  color = "#2a78d6",
+  color = "#3987e5",
 }: {
   values: Array<number | null>;
   color?: string;

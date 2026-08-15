@@ -1,32 +1,122 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Kept so `dark:` classes inside generated shadcn components compile but never
+   apply — the app is dark-only and the .dark class is never added to the DOM. */
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
 @theme {
-  --color-rocket-blue: #15397f;
-  --color-rocket-blue-dark: #0e2a61;
-  --color-rocket-gold: #ffd200;
+  /* Literal family names on purpose: @theme resolves at build time, so the
+     runtime vars next/font injects on <html> are not visible here. next/font
+     registers these exact family names via @font-face. */
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+  --font-display: "Barlow Condensed", "Barlow Condensed Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+
+  /* Toledo Rockets brand scale, sampled from the primary dark-background logo. */
+  --color-navy-950: #0a1428;
+  --color-navy-900: #10203c;
+  --color-navy-800: #16294a;
+  --color-navy-700: #24395e;
+  --color-gold: #ffd200;
+  --color-gold-hover: #ffdf4d;
+  --color-ink: #f2f5fa;
+  --color-ink-muted: #93a5c4;
+  /* Decorative only (3.2:1 on navy-900) — never for text that must be read. */
+  --color-ink-faint: #5c6f92;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  color-scheme: dark;
+  --radius: 0.625rem;
+  --background: #0a1428;
+  --foreground: #f2f5fa;
+  --card: #10203c;
+  --card-foreground: #f2f5fa;
+  --popover: #16294a;
+  --popover-foreground: #f2f5fa;
+  --primary: #ffd200;
+  --primary-foreground: #0a1428;
+  --secondary: #16294a;
+  --secondary-foreground: #f2f5fa;
+  --muted: #16294a;
+  --muted-foreground: #93a5c4;
+  --accent: #16294a;
+  --accent-foreground: #f2f5fa;
+  --destructive: #ff9a62;
+  --destructive-foreground: #0a1428;
+  --border: #24395e;
+  --input: #24395e;
+  --ring: #ffd200;
+  --chart-1: #3987e5;
+  --chart-2: #d95926;
+  --chart-3: #199e70;
+  --chart-4: #c98500;
+  --chart-5: #d55181;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Rocket-trail motif: a gold slash echoing the logo's exhaust trail. Used in
+   exactly three places (active nav, page-title underline, Overview scorebug) —
+   everywhere else stays quiet. */
+.slash {
+  background: var(--color-gold);
+  transform: skewX(-12deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

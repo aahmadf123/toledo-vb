@@ -20,6 +20,11 @@ export function fmtRating(v: number | null): string {
   return v === null ? "—" : v.toFixed(2);
 }
 
+/** Per-set counting stats: 3.24 -> "3.2". */
+export function fmtNum1(v: number | null): string {
+  return v === null ? "—" : v.toFixed(1);
+}
+
 /** "2026-08-13" -> "Aug 13". */
 export function fmtDate(date: string): string {
   const [y, m, d] = date.split("-").map(Number);
@@ -59,20 +64,24 @@ export function fmtEt(iso: string): string {
  * the number is always printed in the cell, never color alone.
  */
 export function rateColorClass(v: number | null): string {
-  if (v === null) return "bg-neutral-100 text-neutral-400";
-  if (v < 0) return "bg-orange-200 text-orange-950";
-  if (v < 0.1) return "bg-orange-100 text-orange-900";
-  if (v < 0.2) return "bg-neutral-100 text-neutral-700";
-  if (v < 0.3) return "bg-sky-100 text-sky-900";
-  return "bg-sky-200 text-sky-950";
+  if (v === null) return "bg-white/5 text-ink-faint";
+  if (v < 0) return "bg-orange-400/25 text-orange-200";
+  if (v < 0.1) return "bg-orange-400/15 text-orange-300";
+  if (v < 0.2) return "bg-white/5 text-ink-muted";
+  if (v < 0.3) return "bg-sky-400/15 text-sky-300";
+  return "bg-sky-400/25 text-sky-200";
 }
 
-/** Fixed categorical series palette (validated CVD-safe order — dataviz skill). */
+/**
+ * Fixed categorical series palette — the dataviz reference dark steps, same
+ * hue order as v1's light palette, validated against the navy-900 chart
+ * surface (all six ≥3:1, adjacent CVD ΔE ≥ 8.4).
+ */
 export const SERIES_COLORS = [
-  "#2a78d6",
-  "#eb6834",
-  "#1baf7a",
-  "#eda100",
-  "#e87ba4",
+  "#3987e5",
+  "#d95926",
+  "#199e70",
+  "#c98500",
+  "#d55181",
   "#008300",
 ] as const;
